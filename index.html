@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>E-Gallery</title>
+</head>
+
+<body>
+ <main id="main">
+
+    <header>
+       <img src="Fotos/YJ Logo.PNG" alt="Logo">
+     <h1>E-Gallery Yuri Jácome</h1>
+     <nav>
+          <ul>
+             <li><button id="buttonNav1" >Todos</button>
+             <li><button id="buttonNav2">BlackWork</button>
+             <li><button id="buttonNav3">Mandala</button>
+             <li><button id="buttonNav4">Oldschool</button>  
+          </ul>
+      </nav>   
+
+         
+    </header>
+
+
+    <section id="exposicao"> 
+      <!-- <div class="containerProduto">
+          
+             <img src="Fotos/Blackwork (1).jpg" class="productImg" alt="Blackwork (1)">
+         
+          <div class="product">
+             <h4 class="tipo">Blackwork</h4>
+             <h2 class="nome">Blackwork #0001</h2>
+             <span class="descricao">Desenho digital ao estilo blackwork</span>
+             <h3 class="preco">R$100,00</h3>    
+             <button class="adicionar">Adicionar Ao Carrinho</button>
+          </div>
+       </div>
+
+       <div class="containerProduto">
+          
+         <img src="Fotos/Mandala (1).jpg" class="productImg" alt="Mandala (1)" />
+     
+      <div class="product">
+         <h4 class="tipo">Mandala</h4>
+         <h2 class="nome">Mandala #0001</h2>
+         <span class="descricao">Desenho digital ao estilo Mandala</span>
+         <h3 class="preco">R$100,00</h3>    
+         <button class="adicionar">Adicionar Ao Carrinho</button>
+      </div>
+   </div> 
+
+  <div class="containerProduto">
+          
+      <img src="Fotos/Oldschool (1).jpg" class="productImg" alt="Oldschool (1)" />
+  
+   <div class="product">
+      <h4 class="tipo">Oldschool</h4>
+      <h2 class="nome">Oldschool #0001</h2>
+      <span class="descricao">Desenho digital ao estilo Oldschool</span>
+      <h3 class="preco">R$100,00</h3>    
+      <button class="adicionar">Adicionar Ao Carrinho</button>
+   </div>
+</div> 
+
+<div class="containerProduto">
+          
+   <img src="Fotos/Blackwork (2).jpg" class="productImg" alt="Blackwork (2)" />
+
+<div class="product">
+   <h4 class="tipo">Blackwork</h4>
+   <h2 class="nome">Blackwork #0002</h2>
+   <span class="descricao">Desenho digital ao estilo blackwork</span>
+   <h3 class="preco">R$100,00</h3>    
+   <button class="adicionar">Adicionar Ao Carrinho</button>
+</div>
+</div>
+
+<div class="containerProduto">
+
+<img src="Fotos/Mandala (2).jpg" class="productImg" alt="Mandala (2)" />
+
+<div class="product">
+<h4 class="tipo">Mandala</h4>
+<h2 class="nome">Mandala #0002</h2>
+<span class="descricao">Desenho digital ao estilo Mandala</span>
+<h3 class="preco">R$100,00</h3>    
+<button class="adicionar">Adicionar Ao Carrinho</button>
+</div>
+</div> 
+
+<div class="containerProduto">
+
+<img src="Fotos/Oldschool (2).jpg" class="productImg" alt="Oldschool (2)" />
+
+<div class="product">
+<h4 class="tipo">Oldschool</h4>
+<h2 class="nome">Oldschool #0002</h2>
+<span class="descricao">Desenho digital ao estilo Oldschool</span>
+<h3 class="preco">R$100,00</h3>    
+<button class="adicionar">Adicionar Ao Carrinho</button>
+</div>
+</div> 
+  -->
+
+       
+    </section>
+
+    <section id="Pesquisa"> 
+       <input type="text" id="barraPesquisa" name="Pesquisar" placeholder="Digite aqui sua pesquisa" >
+       <button id="buttonPesquisar">Pesquisar</button> 
+    </section>
+
+    <section id="carrinho">
+     <h3 id="carrinhoBarra">Carrinho de Compras</h3>
+
+     <div id="carrinhoVazio">
+       <h3 id="empty">Carrinho Vazio</h3>
+       <button id="addToCart">Adicionar Item</button> 
+      </div>
+
+<div id="itemboxcarrinho">
+     <!-- <div class="itemcarrinho">
+          <div class="imgBoxCarrinho">
+             <img src="Fotos/Blackwork (1).jpg" alt="Blackwork (1)">
+          </div>  
+          
+          <div class="infosItemCarrinho">
+             <p class="nomeItemCarrinho">Blackwork  #0001</p>
+             <span class="valorItemCarrinho">R$ 100,00</span>
+             <button class="removerItemCarrinho">Remover produto</button>
+         </div>
+     </div>
+
+     <div class="itemcarrinho">
+      <div class="imgBoxCarrinho">
+         <img src="Fotos/Blackwork (1).jpg" alt="Blackwork (1)">
+      </div>  
+      
+      <div class="infosItemCarrinho">
+         <p class="nomeItemCarrinho">Blackwork  #0001</p>
+         <span class="valorItemCarrinho">R$ 100,00</span>
+         <button class="removerItemCarrinho">Remover produto</button>
+     </div>
+ </div>
+
+ <div class="itemcarrinho">
+   <div class="imgBoxCarrinho">
+      <img src="Fotos/Blackwork (1).jpg" alt="Blackwork (1)">
+   </div>  
+   
+   <div class="infosItemCarrinho">
+      <p class="nomeItemCarrinho">Blackwork  #0001</p>
+      <span class="valorItemCarrinho">R$ 100,00</span>
+      <button class="removerItemCarrinho">Remover produto</button>
+  </div>
+</div> -->
+</div>
+     
+        
+
+      <div id="total">
+         <p>Quantidade: <span id="totalquantidade">0</span> </p>
+    
+         <p>Total: <span id="totalpreco">R$00,00</span> </p>
+     </div>
+
+    </section>
+
+ </main>  
+ <script src="scrypt.js"></script> 
+</body>
+
+</html>
